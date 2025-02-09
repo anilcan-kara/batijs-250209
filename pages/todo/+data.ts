@@ -1,5 +1,5 @@
 // https://vike.dev/data
-import * as drizzleQueries from "../../database/drizzle/queries/todos";
+import * as drizzleQueries from "../../database/drizzle/queries/todos.js";
 import type { PageContextServer } from "vike/types";
 
 export type Data = {

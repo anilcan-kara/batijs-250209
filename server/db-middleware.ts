@@ -1,5 +1,5 @@
 import type { Get, UniversalMiddleware } from "@universal-middleware/core";
-import { dbSqlite } from "../database/drizzle/db";
+import { dbSqlite } from "../database/drizzle/db.js";
 
 declare global {
   namespace Universal {
